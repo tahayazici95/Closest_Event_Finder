@@ -1,0 +1,6 @@
+C:\Users\Taha\Google Drive\HackerRank\Algorithms\Implementation\ViagogoEventScenario\ViagogoEventScenario\bin\Debug\ViagogoEventScenario.exe.config
+C:\Users\Taha\Google Drive\HackerRank\Algorithms\Implementation\ViagogoEventScenario\ViagogoEventScenario\bin\Debug\ViagogoEventScenario.exe
+C:\Users\Taha\Google Drive\HackerRank\Algorithms\Implementation\ViagogoEventScenario\ViagogoEventScenario\bin\Debug\ViagogoEventScenario.pdb
+C:\Users\Taha\Google Drive\HackerRank\Algorithms\Implementation\ViagogoEventScenario\ViagogoEventScenario\obj\Debug\ViagogoEventScenario.csprojResolveAssemblyReference.cache
+C:\Users\Taha\Google Drive\HackerRank\Algorithms\Implementation\ViagogoEventScenario\ViagogoEventScenario\obj\Debug\ViagogoEventScenario.exe
+C:\Users\Taha\Google Drive\HackerRank\Algorithms\Implementation\ViagogoEventScenario\ViagogoEventScenario\obj\Debug\ViagogoEventScenario.pdb
