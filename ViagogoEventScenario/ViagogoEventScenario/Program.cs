@@ -96,6 +96,21 @@ namespace ViagogoEventScenario
             string userInput = Console.ReadLine();
             string[] userInputParts = userInput.Split(',');
 
+            int userXcoordinate = Convert.ToInt32(userInputParts[0]);
+            int userYcoordinate = Convert.ToInt32(userInputParts[1]);
+
+            // Making sure that the user inputs values within the range of -10 & 10
+            while (userXcoordinate < -10 || userXcoordinate > 10 || userYcoordinate < -10 || userYcoordinate > 10)
+            {
+                Console.WriteLine("Please input 2 coordinates separated by only a ','\nand within the range of -10 & 10. EX: 4,2:");
+                userInput = Console.ReadLine();
+                userInputParts = userInput.Split(',');
+
+                userXcoordinate = Convert.ToInt32(userInputParts[0]);
+                userYcoordinate = Convert.ToInt32(userInputParts[1]);
+
+            }
+
             // This array will store the closest Events to the user's search that HAVE ALREADY BEEN SHOWN.
             // ... So that the program won't show the same event multiple times.
             Event[] displayedEvents = new Event[0];
@@ -104,9 +119,7 @@ namespace ViagogoEventScenario
 
             while (counter < 5)
             {
-                int userXcoordinate = Convert.ToInt32(userInputParts[0]);
-                int userYcoordinate = Convert.ToInt32(userInputParts[1]);
-
+                
                 // For now and for initialisation purposes setting the 'closestEvent' to the 1st Event of the 'events' array;
                 // This variable will contain the closest Event that has at least one ticket and hasn't been used before
                 Event closestEvent = events[0];
